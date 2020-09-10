@@ -11,9 +11,9 @@
 2. 注册和风天气的key，替换掉MainActivity.java中的key值。
 3. 注册高德地图的key，替换掉AndroidManifest.xml中的key值。
 
-### 运行界面展示
+### 效果展示
 
-
+请见screenshots文件夹下的文件。
 
 ### 更新日志
 
