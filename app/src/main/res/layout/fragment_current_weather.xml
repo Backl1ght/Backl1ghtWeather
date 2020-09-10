@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="horizontal"
+    android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="5dp"
+                android:text="烫烫烫"
+                android:textColor="@color/colorForeground" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="5dp"
+                android:text="烫烫烫"
+                android:textColor="@color/colorForeground" />
+
+            <TextView
+                android:id="@+id/tmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="99°C"
+                android:textColor="@color/colorForeground"
+                android:textSize="50sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/p999"
+                android:contentDescription="weather_condition_icon" />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="烫烫"
+                android:textColor="@color/colorForeground"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+</LinearLayout>
