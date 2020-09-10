@@ -11,6 +11,10 @@
 2. 注册和风天气的key，替换掉MainActivity.java中的key值。
 3. 注册高德地图的key，替换掉AndroidManifest.xml中的key值。
 
+### 运行界面展示
+
+
+
 ### 更新日志
 
 - 2020.9.10: 上传重构后的第一版
@@ -20,10 +24,11 @@
 - [x] 使用okhttp替换HttpURLConnection
 - [ ] 完善支持华氏度单位的功能
 - [ ] 保存离线数据，当无网络连接时就显示离线数据
-- [x] 多标签页显示多个城市的天气
+- [ ] 多标签页显示多个城市的天气
   - [x] 城市列表(city picker)
   - [x] 城市选择(city picker)
   - [x] 多标签页(ViewPager + CircleIndicator)
+  - [ ] 添加城市后主界面视图更新
 - [ ] 修复定时推送的bug
   - [ ] 定时更新数据，然后再推送
 - [ ] 改用最新的和风天气v7API
