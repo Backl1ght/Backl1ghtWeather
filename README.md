@@ -24,12 +24,22 @@
   - [x] 城市列表(city picker)
   - [x] 城市选择(city picker)
   - [x] 多标签页(ViewPager + CircleIndicator)
+- [ ] 修复定时推送的bug
+  - [ ] 定时更新数据，然后再推送
 - [ ] 改用最新的和风天气v7API
   - [ ] 用和风天气城市信息查询实现城市选择
   - [ ] 请求数据的逻辑换成v7的版本
 - [ ] 美化界面
+  - [ ] 修改界面配色或控件位置，现在CircleIndicator和背景色同色，显示不出来
+  - [ ] 城市列表界面优化(item使用swipe view)
+  - [ ] 尝试自定义view
+- [ ] 优化性能
+  - [ ] 现在切换标签页，ViewPager的回收机制会导致界面半初始化状态被现实
+- [ ] 优化定位相关功能
+- [ ] 优化设置相关功能
 
 ### 参考资料
 
 1. [CityPickerX](https://github.com/zhuxu1/CityPickerX)
 2. [和风天气](https://www.heweather.com/)
+3. [CircleIndicator](https://github.com/ongakuer/CircleIndicator)
